@@ -1,0 +1,60 @@
+.services {
+    background-color: #f7f7f7;
+    padding: 70px 0;
+  }
+  
+  .services .section-title h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .services .service {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .services .service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .services .service-icon {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .services .service-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .services .service-info p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  .services .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .services .row {
+      flex-direction: column;
+    }
+  }
+  

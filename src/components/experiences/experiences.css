@@ -1,0 +1,51 @@
+.experiences-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .experience-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .experience-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .experience-card-content {
+    padding: 20px;
+  }
+  
+  .experience-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .experience-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .experience-tech-stack {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .experience-date {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  @media (max-width: 768px) {
+    .experience-card {
+      width: calc(50% - 10px);
+    }
+  }
+  
